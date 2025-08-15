@@ -1,0 +1,5 @@
+sed -i '$i public double averageTax(){\n     }' Employee.java
+
+git add Employee.java
+git commit -m "Method AverageTax included"
+git push http://student1:studentpassword@localhost:9080/student1/test1.git DEV_feature
